@@ -49,7 +49,7 @@ CREATE TABLE users (
 )
 
 INSERT INTO customer (first_name, last_name, email)
-VALUES ('Mickey', 'Mouse', 'mmouse@mines.edu');
+VALUES ('Mickey', 'Mouse', 'mmouse@disney.com');
 INSERT INTO customer (first_name, last_name, email)
 VALUES ('John', 'Smith', 'johnsmith@gmail.com');
 
@@ -61,6 +61,6 @@ INSERT INTO product (product_name, image_name, price, in_stock, inactive)
 VALUES ('corn', 'corn.jpeg', 249.99, 35, 0);
 
 INSERT INTO users (first_name, last_name, password, email, role)
-VALUES ('Frodo', 'Baggins', 'fb', 'fb@mines.edu', 1);
+VALUES ('Frodo', 'Baggins', 'fb', 'fb@lotr.com', 1);
 INSERT INTO users (first_name, last_name, password, email, role)
-VALUES ('Harry', 'Potter', 'hp', 'hp@mines.edu', 2);
+VALUES ('Harry', 'Potter', 'hp', 'hp@hogwarts.com', 2);
