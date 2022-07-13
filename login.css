@@ -1,0 +1,47 @@
+:root {
+  --color-1: #0ed6eb;
+  --color-2: #f6c403;
+  --color-3: #fc7920;
+  --color-4: #db7f1e;
+  --color-5: #a28057;
+  --color-6: #f9e7d4;
+  --color-7: #dbcdbc;
+}
+
+
+input {
+  width: 95%;
+  margin: 3px 3px 3px 3px;
+  background-color: var(--color-6);
+  border-color: var(--color-4);
+  padding: 0.25em;
+}
+
+button {
+  margin: 1rem;
+  width: 60%;
+  background-color: var(--color-2);
+  color: var(--color-4);
+  border-color: var(--color-6);
+  border-radius: 4px;
+  padding: 0.25em;
+}
+
+#submit {
+  margin-top: 1rem;
+  width: 98%;
+  background-color: var(--color-1);
+  color: var(--color-6);
+  border-color: var(--color-2);
+  border-radius: 4px;
+}
+
+fieldset {
+  width: 60%;
+  border-color: var(--color-4);
+  padding: 1em;
+}
+
+#error {
+  color: var(--color-3);
+}

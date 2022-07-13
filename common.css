@@ -1,0 +1,117 @@
+:root {
+  --color-1: #0ed6eb;
+  --color-2: #f6c403;
+  --color-3: #fc7920;
+  --color-4: #db7f1e;
+  --color-5: #a28057;
+  --color-6: #f9e7d4;
+  --color-7: #dbcdbc;
+}
+
+* {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: var(--color-2);
+  color: var(--color-4);
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5em;
+  align: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: var(--color-4);
+  font-size: 22px;
+}
+
+article {
+  margin: 0px 23px 0px 23px;
+  background-color: var(--color-7);
+  padding: 1rem;
+  color: var(--color-5);
+  text-transform: none;
+  font-size: 14px;
+  text-align: justify;
+}
+
+body {
+  background-color: var(--color-6);
+  color: var(--color-3);
+  width: 60%;
+  align: left;
+  margin: auto;
+}
+
+footer {
+  background-color: var(--color-3);
+  color: var(--color-6);
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0.3em;
+  align: center;
+  text-align: center;
+  font-size: 14px;
+  text-transform: none;
+}
+
+a {
+  color: var(--color-1);
+}
+
+li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: var(--color-5);
+  margin: 0px 23px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: var(--color-6);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#admin {
+  float: right;
+}
+
+#refund {
+  color: var(--color-1);
+}
+
+.topnav a:hover {
+  background-color: var(--color-3);
+  color: var(--color-7);
+}
+
+.topnav a.active {
+  background-color: var(--color-2);
+  color: var(--color-5);
+}
+
+aside {
+  position: absolute;
+  right: 4em;
+  top: 4em;
+  max-width: 12%;
+  padding: 0.25em;
+  opacity: 75%;
+  background-color: var(--color-3);
+  color: var(--color-6);
+}

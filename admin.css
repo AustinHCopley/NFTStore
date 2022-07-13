@@ -1,0 +1,19 @@
+table {
+  width: 76%;
+  border-color: #f9e7d4;
+  border-width: thin;
+  border-style: solid;
+  background-color: #f9e7d4;
+}
+h3 {
+  color: #0ed6eb;
+}
+td {
+  border-color: #dbcdbc;
+  border-width: thin;
+  border-style: solid;
+}
+ .cols {
+   color: #fc7920;
+   background-color: #dbcdbc;
+ }

@@ -1,0 +1,95 @@
+:root {
+  --color-1: #0ed6eb;
+  --color-2: #f6c403;
+  --color-3: #fc7920;
+  --color-4: #db7f1e;
+  --color-5: #a28057;
+  --color-6: #f9e7d4;
+  --color-7: #dbcdbc;
+}
+
+input {
+  margin: 3px 3px 3px 3px;
+  background-color: var(--color-6);
+  border-color: var(--color-4);
+}
+
+#submitButton {
+  background-color: var(--color-1);
+  color: var(--color-6);
+  border-color: var(--color-2);
+}
+
+#resetButton {
+  margin-left: 1.25rem;
+  background-color: var(--color-3);
+  border-color: var(--color-2);
+  color: var(--color-6);
+}
+
+#right {
+  float: right;
+  position: relative;
+  top: 0;
+  height: auto;
+  padding: 0.2em;
+  margin: 1.5rem 2rem 0 0;
+}
+
+#box label {
+  margin-top: .5em;
+	display: inline-block;
+	width: 10em;
+}
+
+legend span {
+  color: var(--color-4);
+  font-size: 22px;
+  background-color: var(--color-6);
+}
+
+fieldset {
+  max-width: 50%;
+  width: 50%;
+  border-color: var(--color-4);
+  padding: 1em;
+}
+
+#available {
+  margin-top: 0.5em;
+  width: 10em;
+}
+
+#quantity {
+  margin-top: 0.5em;
+  width: 10em;
+}
+
+#product {
+  width: 12em;
+  border-color: var(--color-1);
+  color: var(--color-2);
+  background-color: var(--color-6);
+}
+
+table {
+  border-color: #f9e7d4;
+  border-width: thin;
+  border-style: solid;
+  background-color: #f9e7d4;
+}
+
+h3 {
+  color: #0ed6eb;
+}
+
+td {
+  border-color: #dbcdbc;
+  border-width: thin;
+  border-style: solid;
+}
+
+ .cols {
+   color: #fc7920;
+   background-color: #dbcdbc;
+ }

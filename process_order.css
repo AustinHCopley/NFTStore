@@ -1,0 +1,26 @@
+h3 {
+  color: #fc7920;
+}
+
+.receipt {
+  display: table; 
+  padding-left: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+  background-color: #a28057;
+  color: #f9e7d4;
+}
+
+#order_title {
+  margin-left: 1em;
+}
+
+.breakdown {
+  margin-left: 2em;
+  text-align: center;
+}
+
+#discount li {
+  list-style-type: square;
+  color: #a28057;
+}
